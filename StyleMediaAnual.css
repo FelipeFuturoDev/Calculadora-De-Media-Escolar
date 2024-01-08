@@ -1,0 +1,127 @@
+/*Estilos gerais*/
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul, li, a, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /*font-family: 'Open Sans', sans-serif;*/
+  body{
+   margin: 0 2rem 5rem 2rem;
+   background-color: #62edaa;  
+  }
+  
+  h1{
+    margin-top: 5rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  article{
+   margin-bottom: 0.5rem;
+   margin-left: 0.5rem;  
+   background-color: lightslategray;
+  }
+  article div{
+    margin: 10px 1px 10px 1px;
+  }
+  article .primeiro{
+    padding-left: 4px;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-between;
+  }
+ article .segundo{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+}
+
+article .terceiro{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+}
+
+
+article .quarto{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+}
+  article .lado-esquerdo{
+    padding: 21px 0 21px 21px;
+  }
+  
+  /*font-family: 'Roboto', sans-serif;*/
+  article .lado-esquerdo label{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+  }
+  article .lado-esquerdo input{
+    width: 300px;
+    height: 39px;
+    background-color: #6495ed;
+    border-radius: 28px 106px 30px 170px;
+  }
+  
+  article .lado-direito{
+    padding: 21px 21px 21px 21px;
+  }
+  article .lado-direito label{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  article  .lado-direito input{
+    width: 300px;
+    height: 39px;
+    background-color: #6495ed;
+    border-radius: 28px 106px 30px 170px;
+  }
+  article section{
+    padding: 10px 9px 10px 9px;
+    border-radius: 10px 70px 10px 70px;
+    background-color: #d4b4db;
+  }
+  
+  article section button{
+    padding: 5px 20px 5px 20px;
+    background-color: #96d1c1;
+    border-radius: 70px 70px 70px 70px;
+  }
+  
+  .botoes{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 9px 10px 9px;
+    border-radius: 10px 70px 10px 70px;
+    background-color: #d4b4db;
+  }
+  .botoes .soma button{
+    padding: 5px 20px 5px 20px;
+    background-color: #96d1c1;
+    border-radius: 70px 70px 70px 70px;
+  }
+  .botoes .soma button a{
+    color: black;
+    padding: 5px 20px 5px 20px;
+    background-color: #96d1c1;
+    border-radius: 70px 70px 70px 70px;
+  }
+  .botoes .voltar button{
+    padding: 5px 20px 5px 20px;
+    background-color: #ff0202;
+    border-radius: 70px 70px 70px 70px;
+  }
+  .botoes .voltar button a{
+    color: cornsilk;;
+    padding: 5px 20px 5px 20px;
+    background-color: #ff0202;
+    border-radius: 70px 70px 70px 70px;
+  }
+   input{
+    padding-left: 8rem;
+    color: white;
+   }
